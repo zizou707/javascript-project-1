@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+.color-box { 
+    background-color: blue;
+    width: 400px;
+    height: 400px;
+}
+#change-color-btn {
+     border-radius: 5%;
+}
